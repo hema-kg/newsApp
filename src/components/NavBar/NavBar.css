@@ -1,0 +1,9 @@
+.nav-wrapper {
+    overflow: hidden;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.nav-label {
+    font-weight: bold;
+}
