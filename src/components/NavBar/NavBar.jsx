@@ -242,7 +242,7 @@ export default function NavBar() {
             )}
 
             <div className="row">
-              {worldArticles.map((a, idx) => (
+              {Array.isArray(worldArticles) ? worldArticles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
                     {a.urlToImage && <img src={a.urlToImage} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />}
@@ -254,7 +254,7 @@ export default function NavBar() {
                     <div className="card-footer text-muted small">{a.source?.name}</div>
                   </div>
                 </div>
-              ))}
+              )) : null}
             </div>
           </div>
         )}
