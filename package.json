@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:gh": "vite build --base=/newsapp/",
+    "build:gh": "vite build --base=/newsApp/",
     "predeploy": "npm run build:gh",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
