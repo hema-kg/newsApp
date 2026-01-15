@@ -96,7 +96,7 @@ export default function NavBar() {
       const res = await fetch('https://api.jsonblob.com/019bc1c8-2016-73c7-b986-c40447163268', { signal: controller.signal })
       const data = await res.json()
       console.warn('World Articles Data:', data)
-      setWorldArticles(data || [])
+      setWorldArticles(data.articles || [])
     } catch (err) {
       if (err.name !== 'AbortError') setError(err.message || 'Failed to fetch')
     } finally {
