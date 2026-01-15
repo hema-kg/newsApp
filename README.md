@@ -20,4 +20,7 @@ Deploy to GitHub Pages (configured):
 ```bash
 npm install --save-dev gh-pages
 npm run deploy
+
+npm run predeploy
+npm run deploy
 ```

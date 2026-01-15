@@ -93,7 +93,7 @@ export default function NavBar() {
     setError(null)
     try {
       const controller = new AbortController();
-      const res = await fetch('https://api.jsonblob.com/019bbc98-724e-7cc2-85f3-1de87b00140a', { signal: controller.signal })
+      const res = await fetch('https://api.jsonblob.com/019bc1c8-2016-73c7-b986-c40447163268', { signal: controller.signal })
       const data = await res.json()
       console.warn('World Articles Data:', data)
       setWorldArticles(data || [])
