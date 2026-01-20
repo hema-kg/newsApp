@@ -18,7 +18,7 @@ export default function NavBar() {
       setError(null)
       try {
         const controller = new AbortController();
-        const res = await fetch('https://api.jsonblob.com/019bbd02-18cd-7477-8fed-4c6f2d13511e', { signal: controller.signal })
+        const res = await fetch('https://gist.githubusercontent.com/hema-kg/53d4833f99e297ab037049e0140583e2/raw/9ec7971697505897a4e7f8a4a669855737ceb3f5/latest.json', { signal: controller.signal })
         const data = await res.json()
         setArticles(data.articles || [])
       } catch (err) {
@@ -33,7 +33,7 @@ export default function NavBar() {
       setError(null) 
       try {
         const controller = new AbortController();
-        const res = await fetch('https://api.jsonblob.com/019bbd0b-f99d-76e3-b71b-8bea844a7cc8', { signal: controller.signal })
+        const res = await fetch('https://gist.githubusercontent.com/hema-kg/8907a21f1fd01c5111dd84b3fd7ac2c6/raw/0f9aee57b8cb8187e18a2afe628c69b15571ceb4/sports.json', { signal: controller.signal })
         const data = await res.json()
         setSportsArticles(data.articles || [])
       } catch (err) {
@@ -48,7 +48,7 @@ export default function NavBar() {
       setError(null)      
       try { 
         const controller = new AbortController();
-        const res = await fetch('https://api.jsonblob.com/019bbd1c-31f4-7411-aef1-c794d0ad4b55', { signal: controller.signal })
+        const res = await fetch('https://gist.githubusercontent.com/hema-kg/0f14a1565b1f34b2f19cc73dff9fdd4d/raw/c42a2fadcfcd0216595ec7b385b9c191245f1765/culture.json', { signal: controller.signal })
         const data = await res.json()
         setCultureArticles(data.articles || [])
       } catch (err) {       
@@ -63,7 +63,7 @@ export default function NavBar() {
       setError(null)    
       try {
         const controller = new AbortController();
-        const res = await fetch('https://api.jsonblob.com/019bbd23-36fa-7a7d-bbb3-5c6ca7f64f02', { signal: controller.signal })
+        const res = await fetch('https://gist.githubusercontent.com/hema-kg/f28125c8ecccb868b0a04eaee7b7d861/raw/c95dba5e5c39a7edc64b695c85a11d12c4a91a19/welness.json', { signal: controller.signal })
         const data = await res.json()
         setWellnessArticles(data.articles || [])
       } catch (err) {
@@ -78,7 +78,7 @@ export default function NavBar() {
       setError(null)    
       try {
         const controller = new AbortController();
-        const res = await fetch('https://api.jsonblob.com/019bbd2a-f2f9-71f3-8a18-6ce74d0d698f', { signal: controller.signal })
+        const res = await fetch('https://gist.githubusercontent.com/hema-kg/6992969ef8a8c983995fd99da37c449c/raw/d89f09b83eae4948bf4f66a3ad16523046331230/economy.json', { signal: controller.signal })
         const data = await res.json()
         setEconomyArticles(data.articles || [])
       } catch (err) {
@@ -93,7 +93,7 @@ export default function NavBar() {
     setError(null)
     try {
       const controller = new AbortController();
-      const res = await fetch('https://api.jsonblob.com/019bc1c8-2016-73c7-b986-c40447163268', { signal: controller.signal })
+      const res = await fetch('https://gist.githubusercontent.com/hema-kg/f382751897cd88058be694adf476c2b1/raw/f50cd24b7ecf19e9801ea5486712ff9b4107933d/world.json', { signal: controller.signal })
       const data = await res.json()
       console.warn('World Articles Data:', data)
       setWorldArticles(data.articles || [])
