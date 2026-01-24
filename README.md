@@ -23,4 +23,7 @@ npm run deploy
 
 npm run predeploy
 npm run deploy
+
+Notes for GitHub Pages
+- If you deploy under a repo subpath (for example: https://<user>.github.io/newsApp/), set `base: '/newsApp/'` in `vite.config.js` and use `import.meta.env.BASE_URL` when fetching static assets (e.g. `fetch(`${import.meta.env.BASE_URL}latest.json`)`).
 ```

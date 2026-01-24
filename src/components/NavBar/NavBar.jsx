@@ -50,7 +50,7 @@ export default function NavBar() {
       try {
         const controller = new AbortController();
         // const res = await fetch('https://gist.githubusercontent.com/hema-kg/53d4833f99e297ab037049e0140583e2/raw/9ec7971697505897a4e7f8a4a669855737ceb3f5/latest.json', { signal: controller.signal })
-        const res = await fetch('/latest.json', { signal: controller.signal })
+        const res = await fetch(`${import.meta.env.BASE_URL}latest.json`, { signal: controller.signal })
         const data = await res.json()
         setArticles(data.articles || [])
       } catch (err) {
@@ -66,7 +66,7 @@ export default function NavBar() {
       try {
         const controller = new AbortController();
         // const res = await fetch('https://gist.githubusercontent.com/hema-kg/8907a21f1fd01c5111dd84b3fd7ac2c6/raw/0f9aee57b8cb8187e18a2afe628c69b15571ceb4/sports.json', { signal: controller.signal })
-        const res = await fetch('/sports.json', { signal: controller.signal })
+        const res = await fetch(`${import.meta.env.BASE_URL}sports.json`, { signal: controller.signal })
         const data = await res.json()
         setSportsArticles(data.articles || [])
       } catch (err) {
@@ -82,7 +82,7 @@ export default function NavBar() {
       try { 
         const controller = new AbortController();
         // const res = await fetch('https://gist.githubusercontent.com/hema-kg/0f14a1565b1f34b2f19cc73dff9fdd4d/raw/c42a2fadcfcd0216595ec7b385b9c191245f1765/culture.json', { signal: controller.signal })
-        const res = await fetch('/culture.json', { signal: controller.signal })
+        const res = await fetch(`${import.meta.env.BASE_URL}culture.json`, { signal: controller.signal })
         const data = await res.json()
         setCultureArticles(data.articles || [])
       } catch (err) {       
@@ -98,7 +98,7 @@ export default function NavBar() {
       try {
         const controller = new AbortController();
         // const res = await fetch('https://gist.githubusercontent.com/hema-kg/f28125c8ecccb868b0a04eaee7b7d861/raw/c95dba5e5c39a7edc64b695c85a11d12c4a91a19/welness.json', { signal: controller.signal })
-        const res = await fetch('/welness.json', { signal: controller.signal })
+        const res = await fetch(`${import.meta.env.BASE_URL}welness.json`, { signal: controller.signal })
         const data = await res.json()
         setWellnessArticles(data.articles || [])
       } catch (err) {
@@ -114,7 +114,7 @@ export default function NavBar() {
       try {
         const controller = new AbortController();
         // const res = await fetch('https://gist.githubusercontent.com/hema-kg/6992969ef8a8c983995fd99da37c449c/raw/d89f09b83eae4948bf4f66a3ad16523046331230/economy.json', { signal: controller.signal })
-        const res = await fetch('/economy.json', { signal: controller.signal })
+        const res = await fetch(`${import.meta.env.BASE_URL}economy.json`, { signal: controller.signal })
         const data = await res.json()
         setEconomyArticles(data.articles || [])
       } catch (err) {
@@ -130,7 +130,7 @@ export default function NavBar() {
     try {
       const controller = new AbortController();
       // const res = await fetch('https://gist.githubusercontent.com/hema-kg/f382751897cd88058be694adf476c2b1/raw/f50cd24b7ecf19e9801ea5486712ff9b4107933d/world.json', { signal: controller.signal })
-      const res = await fetch('/world.json', { signal: controller.signal })
+      const res = await fetch(`${import.meta.env.BASE_URL}world.json`, { signal: controller.signal })
       const data = await res.json()
       console.warn('World Articles Data:', data)
       setWorldArticles(data.articles || [])
@@ -238,7 +238,7 @@ export default function NavBar() {
               <div className="mobile-menu-header d-flex align-items-center">
                 <div className="menu-brand">
                   <div className="avatar ms-auto" aria-hidden>
-                    <img src="/news.png" alt="avatar" />
+                    <img src={`${import.meta.env.BASE_URL}news.png`} alt="avatar" />
                   </div>
                   <span className="brand-dot">News</span>
                 </div>
@@ -287,7 +287,7 @@ export default function NavBar() {
               {articles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
-                     <img src={a.urlToImage || "/news.png"} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/news.png"; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
+                     <img src={a.urlToImage || `${import.meta.env.BASE_URL}news.png`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${import.meta.env.BASE_URL}news.png`; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
                     <div className="card-body d-flex flex-column">
                       <h6 className="card-title">{a.title}</h6>
                       <p className="card-text text-muted" style={{ flex: 1 }}>{a.description || a.content || 'No description'}</p>
@@ -322,7 +322,7 @@ export default function NavBar() {
               {sportsArticles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
-                    <img src={a.urlToImage || "/news.png"} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/news.png"; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
+                    <img src={a.urlToImage || `${import.meta.env.BASE_URL}news.png`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${import.meta.env.BASE_URL}news.png`; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
                     <div className="card-body d-flex flex-column">
                       <h6 className="card-title">{a.title}</h6>
                       <p className="card-text text-muted" style={{ flex: 1 }}>{a.description || a.content || 'No description'}</p>
@@ -357,7 +357,7 @@ export default function NavBar() {
               {Array.isArray(worldArticles) ? worldArticles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
-                    <img src={a.urlToImage || "/news.png"} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/news.png"; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
+                    <img src={a.urlToImage || `${import.meta.env.BASE_URL}news.png`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${import.meta.env.BASE_URL}news.png`; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
                     <div className="card-body d-flex flex-column">
                       <h6 className="card-title">{a.title}</h6>
                       <p className="card-text text-muted" style={{ flex: 1 }}>{a.description || a.content || 'No description'}</p>
@@ -392,7 +392,7 @@ export default function NavBar() {
               {cultureArticles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
-                    <img src={a.urlToImage || "/news.png"} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/news.png"; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
+                    <img src={a.urlToImage || `${import.meta.env.BASE_URL}news.png`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${import.meta.env.BASE_URL}news.png`; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
                     <div className="card-body d-flex flex-column">
                       <h6 className="card-title">{a.title}</h6>
                       <p className="card-text text-muted" style={{ flex: 1 }}>{a.description || a.content || 'No description'}</p>
@@ -427,7 +427,7 @@ export default function NavBar() {
               {wellnessArticles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
-                    <img src={a.urlToImage || "/news.png"} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/news.png"; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
+                    <img src={a.urlToImage || `${import.meta.env.BASE_URL}news.png`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${import.meta.env.BASE_URL}news.png`; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
                     <div className="card-body d-flex flex-column">
                       <h6 className="card-title">{a.title}</h6>
                       <p className="card-text text-muted" style={{ flex: 1 }}>{a.description || a.content || 'No description'}</p>
@@ -462,7 +462,7 @@ export default function NavBar() {
               {economyArticles.map((a, idx) => (
                 <div className="col-12 col-md-6 col-lg-4 mb-3" key={a.url || idx}>
                   <div className="card h-100">
-                    <img src={a.urlToImage || "/news.png"} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/news.png"; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
+                    <img src={a.urlToImage || `${import.meta.env.BASE_URL}news.png`} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${import.meta.env.BASE_URL}news.png`; }} className="card-img-top" alt={a.title} style={{ objectFit: 'cover', height: 160 }} />
                     <div className="card-body d-flex flex-column">
                       <h6 className="card-title">{a.title}</h6>
                       <p className="card-text text-muted" style={{ flex: 1 }}>{a.description || a.content || 'No description'}</p>
