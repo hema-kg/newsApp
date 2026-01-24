@@ -1,0 +1,359 @@
+{
+  "status": "ok",
+  "totalResults": 32,
+  "articles": [
+   
+  
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "Luke Andrews",
+      "title": "Mississippi is the nation's chlamydia and gonorrhea capital, figures reveal - Daily Mail",
+      "description": "Mississippi's outbreaks were blamed on a stigma around getting tested for the diseases and admitting to the infection. In Nevada, the rise of its hook-up culture was said to have sparked the rise.",
+      "url": "https://www.dailymail.co.uk/health/article-10735961/Mississippi-nations-chlamydia-gonorrhea-capital-figures-reveal.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2022/04/20/22/56849579-0-image-a-65_1650488795167.jpg",
+      "publishedAt": "2022-04-20T21:39:21Z",
+      "content": "Mississippi is chlamydia and gonorrhea capital of the U.S. while Nevada has the most syphilis cases per capita, official figures reveal.\r\nCases of common sexually transmitted diseases (STDs) hit reco… [+7252 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Shiv Sudhakar",
+      "title": "Single tick bite can cause a life-threatening meat allergy: report - Fox News",
+      "description": "As tick season kicks into gear, it’s a good idea to know about a potentially life-threatening food allergy called alpha-gal syndrome that may occur after certain tick bites – especially the lone star tick",
+      "url": "https://www.foxnews.com/health/lone-star-tick-bite-meat-allergy-life-threatening",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/04/Screen-Shot-2022-04-20-at-4.15.05-PM.png",
+      "publishedAt": "2022-04-20T21:38:52Z",
+      "content": "Have you ever eaten steak at dinnertime and then developed hives at midnight?\r\nAs tick season kicks into gear, its a good idea to know about a potentially life-threatening food allergy called alpha-g… [+6738 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Gina Kolata",
+      "title": "Scientists Find No Benefit to Time-Restricted Eating - The New York Times",
+      "description": "In a yearlong study, participants who confined meals to certain hours lost no more weight than those who ate at any time.",
+      "url": "https://www.nytimes.com/2022/04/20/health/time-restricted-diets.html",
+      "urlToImage": "https://static01.nyt.com/images/2022/04/20/science/20diet/20diet-facebookJumbo.jpg",
+      "publishedAt": "2022-04-20T21:00:07Z",
+      "content": "She suspects the diet might benefit people by limiting the number of calories they have an opportunity to consume each day. We just need to do larger studies, Dr. Peterson said.\r\nDr. Louis J. Aronne,… [+1353 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Colin Lodewick",
+      "title": "COVID and seasonal allergies have started to look a lot alike. Here’s how to tell them apart - Yahoo Finance",
+      "description": "“It's quite possible that people could have what they think are allergy symptoms and actually have COVID,” a Harvard professor told Fortune. “They could be...",
+      "url": "https://finance.yahoo.com/news/covid-seasonal-allergies-started-look-205328149.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/jDLxHiItNJba8AZFK9YQDA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NzM-/https://s.yimg.com/uu/api/res/1.2/GWIhiW.KyVMaeFvckPXHYA--~B/aD0yMDk0O3c9Mjg4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/43b3bcea0b5211286e44679bfcbf480f",
+      "publishedAt": "2022-04-20T20:53:28Z",
+      "content": "Somethings in the air this spring thats making people wheeze and sneeze. It can make you fatigued, irritate your throat, and generally bog you down. But theres a nagging question in early 2022: Is it… [+4995 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Neurosciencenews.com"
+      },
+      "author": "https://www.facebook.com/neurosciencenews",
+      "title": "Single-Cell DNA Sequencing Offers a New Angle on the Causes of Alzheimer’s Disease - Neuroscience News",
+      "description": "An abundance of newly acquired mutations in the mutations that occur at an accelerated speed is a telling pattern of Alzheimer's disease, researchers report.",
+      "url": "https://neurosciencenews.com/genetic-sequencing-alzheimers-20424/",
+      "urlToImage": "https://neurosciencenews.com/files/2022/04/dna-sequencing-alzheimers-neurosinces-public.jpg",
+      "publishedAt": "2022-04-20T20:42:00Z",
+      "content": "Summary: An abundance of newly acquired mutations in the mutations that occur at an accelerated speed is a telling pattern of Alzheimer’s disease, researchers report.\r\nSource: Boston Children’s Hospi… [+7186 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Detroit Free Press"
+      },
+      "author": "Kristen Jordan Shamus, Detroit Free Press",
+      "title": "Fungal outbreak forces Detroit specialty hospital to stop admitting patients - Detroit Free Press",
+      "description": "The seventh floor of DMC Sinai-Grace Hospital in Detroit is no longer admitting new patients because of a fungal infection called Candida auris.",
+      "url": "https://www.freep.com/story/news/health/2022/04/20/dmc-sinai-grace-hospital-detroit/7384796001/",
+      "urlToImage": "https://www.gannett-cdn.com/presto/2021/07/22/USAT/ab664fba-ff2f-46ea-9f94-1ad95dbcb8c6-AP21203534455018.jpg?auto=webp&crop=1758,989,x0,y351&format=pjpg&width=1200",
+      "publishedAt": "2022-04-20T19:27:37Z",
+      "content": "A  36-bed specialty recovery hospital that operates on the seventh floor of DMC Sinai-Grace Hospital in Detroit is no longer admitting new patients because of an outbreak of a drug-resistant, highly … [+5415 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Jessica Rendall",
+      "title": "Your Blood Type Matters When It Comes to Heart Health, Science Says - CNET",
+      "description": "People with type O blood might be less susceptible to heart disease than their type A or B peers.",
+      "url": "https://www.cnet.com/health/medical/what-your-blood-type-means-for-heart-health-according-to-science/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/4997f4f5bff8218b313d321eac13ef68276c6102/2022/04/06/09e950cc-6a85-4232-b765-c6a269142c24/gettyimages-1220468162.jpg?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2022-04-20T19:00:07Z",
+      "content": "Naeblys/Getty Images\r\nDo you know your blood type? \r\nUnless you've donated blood, were given a transfusion or found out during pregnancy, maybe you've never thought twice about it. But coursing throu… [+5722 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "IFLScience"
+      },
+      "author": "Tom Hale",
+      "title": "Antidepressants Not Linked To Better Quality Of Life In Long Term, New Study Argues - IFLScience",
+      "description": "The use of antidepressants is not linked to a significantly better health-related quality of life in the long run, according to a large new study published",
+      "url": "https://www.iflscience.com/health-and-medicine/antidepressants-not-linked-to-better-quality-of-life-in-long-term-new-study-argues/",
+      "urlToImage": "https://cdn.iflscience.com/images/0ccaee4a-0a28-56f8-bed6-830eb2ba3ef5/default-1650460803-pharmacy.jpg",
+      "publishedAt": "2022-04-20T18:00:00Z",
+      "content": "The use of antidepressants is not linked to a significantly better health-related quality of life in the long run, according to a large new study published in the journal PLOS ONE.\r\nIts known that de… [+3732 chars]"
+    },
+    {
+      "source": {
+        "id": "medical-news-today",
+        "name": "Medical News Today"
+      },
+      "author": "Lori Uildriks PharmD, BCPS, BCGP",
+      "title": "Cognitive decline: 2 personality traits may influence risk - Medical News Today",
+      "description": "New research examines the link between the 'Big Five' personality traits and the risk of developing mild cognitive impairment.",
+      "url": "https://www.medicalnewstoday.com/articles/2-personality-traits-associated-with-cognitive-decline-in-new-study",
+      "urlToImage": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/04/grumpy_senior_alzheimers_732x549_thumb.jpg",
+      "publishedAt": "2022-04-20T17:15:34Z",
+      "content": "\u003Cul\u003E\u003Cli\u003EA new study showed that certain personality traits are associated with risk for cognitive decline in older adults.\u003C/li\u003E\u003Cli\u003EThe study found that high neuroticism and low conscientiousness are … [+6289 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eatthis.com"
+      },
+      "author": "Samantha Boesch",
+      "title": "The #1 Best Vegetable to Shrink Belly Fat, Says Dietitian — Eat This Not That - Eat This, Not That",
+      "description": "Learn more about one of the healthiest vegetables for weight loss, especially if you're trying to lose the stubborn fat around your belly.",
+      "url": "http://www.eatthis.com/best-vegetable-to-shrink-belly-fat/",
+      "urlToImage": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/02/spinach-kale-salad.jpg?quality=82&strip=all",
+      "publishedAt": "2022-04-20T15:41:31Z",
+      "content": "Trying to lose abdominal fat can be a frustrating process, but it isn't something that can be rushed. Losing visceral fat, which is the harmful type of fat that sits around your abdominal organs, req… [+2301 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Express"
+      },
+      "author": "Ian Randall",
+      "title": "Vaccine study of 23 million shows real risk of 'heart problems' from Moderna or Pfizer jab - Express",
+      "description": "THE RISK of heart inflammation after receiving doses of the Moderna or Pfizer Covid vaccines has be laid bare in a huge new study of 23 million people.",
+      "url": "https://www.express.co.uk/news/science/1598594/vaccine-news-pfizer-modern-heart-problems-myocarditis-pericarditis",
+      "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/151/1200x712/1598594_1.jpg",
+      "publishedAt": "2022-04-20T15:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eatthis.com"
+      },
+      "author": "Erich Barganier",
+      "title": "5 Ways to Shrink Visceral Fat While Eating Breakfast, Say Dietitians — Eat This Not That - Eat This, Not That",
+      "description": "If you're trying to shrink visceral fat, here are five strategies to implement when eating breakfast in the morning.",
+      "url": "http://www.eatthis.com/ways-shrink-visceral-fat-while-eating-breakfast/",
+      "urlToImage": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/woman-eating-oatmeal-breakfast.jpg?quality=82&strip=all",
+      "publishedAt": "2022-04-20T14:14:41Z",
+      "content": "Trying to plan the perfect breakfast is easier said than done, especially when you want to burn fat. According to Johns Hopkins Medicine, dieters should try to target visceral fat, which builds up ar… [+4226 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "DW (English)"
+      },
+      "author": "Deutsche Welle (www.dw.com)",
+      "title": "Rare hepatitis virus afflicts children across EU, US and UK - DW (English)",
+      "description": "Doctors are scratching their heads over a new, unknown form of hepatitis that is causing severe illness in some cases. Does the corronavirus pandemic have a role to play?",
+      "url": "https://www.dw.com/en/rare-hepatitis-virus-afflicts-children-across-eu-us-and-uk/a-61523291",
+      "urlToImage": "https://static.dw.com/image/61110750_6.jpg",
+      "publishedAt": "2022-04-20T14:08:28Z",
+      "content": "Health officials in the European Union, the US and the UK are looking into an outbreak of unexplained cases of hepatitis in young children. Some of them have been severe, requiring liver transplants.… [+4857 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eatthis.com"
+      },
+      "author": "Kayla Garritano",
+      "title": "Best Breakfast Habits for a Healthy Gut, Say Dietitians — Eat This Not That - Eat This, Not That",
+      "description": "Start your morning off on the right foot with best breakfast habits for a healthy gut. These habits will keep your gut happy and healthy.",
+      "url": "http://www.eatthis.com/breakfast-habits-healthy-gut/",
+      "urlToImage": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/04/Woman-Cutting-Apple.jpg?quality=82&strip=all",
+      "publishedAt": "2022-04-20T13:38:25Z",
+      "content": "An unhealthy gut means that your digestive system is unable to process food properly, which could lead to digestive issues such as gas, bloating, and abdominal pain. Your immune system can also becom… [+6451 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WGAL Susquehanna Valley Pa."
+      },
+      "author": "Anne Shannon",
+      "title": "Kreider Farms in Donegal, Lancaster County, destroys 1.5 million chickens to prevent spread of avian flu - WGAL Susquehanna Valley Pa.",
+      "description": "No new cases of avian flu have been reported two days after a Lancaster County poultry farm destroyed nearly 1.5 million chickens to stop the spread.",
+      "url": "https://www.wgal.com/article/bird-flu-lancaster-county-pennsylvania/39771415",
+      "urlToImage": "https://kubrick.htvapps.com/vidthumb/images/kreider-farms-donegal-pennsylvania-avian-flu-1650454481.jpg?crop=0.735xw:0.735xh;0,0&resize=1200:*",
+      "publishedAt": "2022-04-20T12:27:00Z",
+      "content": "No new cases of avian flu have been reported two days after a Lancaster County poultry farm destroyed nearly 1.5 million chickens to stop the spread.\r\nThe Kreider Farms Donegal egg-laying facility re… [+5080 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Chicago Tribune"
+      },
+      "author": "Lisa Schencker",
+      "title": "Common cancer in men shouldn't always be called cancer: doctor - Chicago Tribune",
+      "description": "A University of Chicago Medicine doctor argues one of the most common types of cancer in men sometimes shouldn’t be called cancer at all — a controversial take.",
+      "url": "https://www.chicagotribune.com/business/ct-biz-prostate-cancer-gleason-6-university-of-chicago-name-change-20220420-jgecctrbx5chnf5j2jzoo7pu54-story.html",
+      "urlToImage": "https://www.chicagotribune.com/resizer/cZ3kNZftouiOytzXYAjd8jTRmng=/1200x0/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/OPKTRZQEXBBHFK44FKEOLGZLTA.jpg",
+      "publishedAt": "2022-04-20T11:00:00Z",
+      "content": "A University of Chicago Medicine doctor is arguing that one of the most common types of cancer in men sometimes shouldnt be called cancer at all a stance that some say could save many patients from i… [+5555 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "FiveThirtyEight"
+      },
+      "author": "Betsy Ladyzhets",
+      "title": "The National Fight Against COVID-19 Isn't Ready To Go To The Sewers - FiveThirtyEight",
+      "description": "As COVID-19 testing sites close and experts warn that case numbers are capturing a small minority of infections, many public health experts are turning to a new…",
+      "url": "https://fivethirtyeight.com/features/the-national-fight-against-covid-19-isnt-ready-to-go-to-the-sewers/",
+      "urlToImage": "https://fivethirtyeight.com/wp-content/uploads/2022/04/COVID-WASTEWATER-16x9-1.jpg?w=712",
+      "publishedAt": "2022-04-20T10:01:25Z",
+      "content": "As COVID-19 testing sites close and experts warn that case numbers are capturing a small minority of infections, many public health experts are turning to a newer source that might tell us whats goin… [+10868 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Joel Achenbach, Carolyn Y. Johnson",
+      "title": "Boost now? Boost later? Tricky calculation for a 4th coronavirus shot. - The Washington Post",
+      "description": "Uncertainty about a fourth shot reflects the confusion about boosters that has dogged the government’s vaccination campaign.",
+      "url": "https://www.washingtonpost.com/health/2022/04/20/when-to-get-second-covid-booster/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I5SIB7FXRMI6ZA2YECVBMNK7WQ.jpg&w=1440",
+      "publishedAt": "2022-04-20T10:00:59Z",
+      "content": "Placeholder while article actions load\r\nBill and Rudi Weissinger remain covid-cautious. Theyve had three shots of the Moderna coronavirus vaccine. They wear masks at the grocery store and avoid large… [+12157 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Helena Horton",
+      "title": "Using geoengineering to slow global heating risks malaria rise, say scientists - The Guardian",
+      "description": "Technique of reflecting sunlight back into space found to be likely to cause increase in population of disease-carrying mosquitos",
+      "url": "https://amp.theguardian.com/world/2022/apr/20/geoengineering-to-slow-global-heating-risks-malaria-rise",
+      "urlToImage": null,
+      "publishedAt": "2022-04-20T09:01:00Z",
+      "content": "MalariaTechnique of reflecting sunlight back into space found to be likely to cause increase in population of disease-carrying mosquitos\r\nWed 20 Apr 2022 10.00 BST\r\nGeoengineering to prevent the wors… [+3274 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "NewMediaWire",
+      "title": "Following a Mediterranean-style diet during pregnancy may reduce the risk of preeclampsia - Yahoo Finance",
+      "description": "Research Highlights: An analysis of health and dietary data for more than 8,500 pregnant women found that greater adherence to a Mediterranean-style eating...",
+      "url": "https://finance.yahoo.com/news/following-mediterranean-style-diet-during-090000968.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/B_PW902KmprVPWe1klPwMA--~B/aD05NjY7dz02Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/newsmediawire_165/74ecd6222ef06ef6f3bc038103af6d42",
+      "publishedAt": "2022-04-20T09:00:00Z",
+      "content": "Research Highlights:\r\n\u003Cul\u003E\u003Cli\u003EAn analysis of health and dietary data for more than 8,500 pregnant women found that greater adherence to a Mediterranean-style eating plan was associated with a lower r… [+7084 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Berkeley Lovelace Jr.  and Akshay Syal, M.D.",
+      "title": "Why many immunocompromised people are now in a better position to fight Covid - Yahoo News",
+      "description": "As mask mandates end, how can immunocompromised people stay safe? There are more options to protect people with weakened immune systems from Covid.",
+      "url": "https://news.yahoo.com/immunocompromised-cut-covid-risk-082807716.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/hVaVy6OtRU5mU45ccviseg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/uu/api/res/1.2/S68qfrZzs8ql.83db1I7JA--~B/aD0xNjY2O3c9MjUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/nbc_news_122/1f01a75853786d59783185688ec957ef",
+      "publishedAt": "2022-04-20T08:28:07Z",
+      "content": "As more and more Americans doff their masks, immunocompromised individuals may be concerned about their risk levels among largely unmasked crowds.\r\nThe latest change came Monday, when a federal judge… [+5053 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deseret News"
+      },
+      "author": null,
+      "title": "Could you catch COVID from a mink? - Deseret News",
+      "description": "The CDC confirmed cases of COVID-19 in humans that stemmed from mink",
+      "url": "https://www.deseret.com/coronavirus/2022/4/19/23032438/cdc-confirms-mink-to-human-covid-michigan-utah",
+      "urlToImage": "https://deseret.brightspotcdn.com/dims4/default/71c7795/2147483647/strip/true/crop/1024x585+0+0/resize/1461x834!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2F2SrIVu30chhuzd9QXXFHPxjuZww%3D%2F0x0%3A1024x667%2F1024x667%2Ffilters%3Afocal%28654x191%3A655x192%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F23401025%2FAP20202512817698.jpeg",
+      "publishedAt": "2022-04-19T23:10:00Z",
+      "content": "On Monday, the Centers for Disease Control and Prevention confirmed that four mink-to-human cases of COVID-19 were reported in the U.S. \r\nWhere did the outbreak take place? Two of the cases were trac… [+1546 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Live Science"
+      },
+      "author": "Anna Gora",
+      "title": "How to follow a Mediterranean diet for weight loss - Livescience.com",
+      "description": "Unsure exactly how to follow a Mediterranean diet for weight loss? We’ve got all the tips and advice you need",
+      "url": "https://www.livescience.com/Mediterranean-diet-for-weight-loss",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/9KCDTSexXffVWkK7usdi4a-1200-80.jpg",
+      "publishedAt": "2022-04-19T22:07:26Z",
+      "content": "If you’re thinking about how to follow a Mediterranean diet for weight loss, you probably already know there are multiple proven health benefits to this way of eating. \r\nAn ever-growing body of evide… [+6782 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Newser"
+      },
+      "author": "Mike L. Ford",
+      "title": "Genetically Modified Mosquitoes Work as Intended - Newser",
+      "description": "In Florida, engineered male insects mate with females, and offspring was doomed",
+      "url": "https://www.newser.com/story/319498/genetically-modified-mosquitoes-work-as-intended.html",
+      "urlToImage": "https://img1-azrcdn.newser.com/image/1409340-12-20220419135343.jpeg",
+      "publishedAt": "2022-04-19T18:42:00Z",
+      "content": "(Newser)\r\nResults are in from a pilot study in Florida, where millions of genetically engineered mosquitoes were released into the wild. Some referred to it as the “Jurassic Park” experiment when it … [+1900 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "The Sun",
+      "title": "Doctors dismissed dangerous symptoms saying I was just getting fat - New York Post ",
+      "description": "A mom nearly died after claiming doctors repeatedly dismissed her symptoms, saying she was just “getting fat”.",
+      "url": "https://nypost.com/2022/04/19/doctors-dismissed-dangerous-symptoms-saying-i-was-just-getting-fat/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/04/sarah-mcinnes-massive-stomach-cycst-00.jpg?quality=75&strip=all&w=1024",
+      "publishedAt": "2022-04-19T18:27:00Z",
+      "content": "A mom nearly died after claiming doctors repeatedly dismissed her symptoms, saying she was just getting fat.\r\nSarah McInnes, 38, complained to her GP of ballooning by two dress sizes from a 12 to a 1… [+6242 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eatthis.com"
+      },
+      "author": "Kayla Garritano",
+      "title": "The #1 Best Supplement for Heart Disease, Says Science — Eat This Not That - Eat This, Not That",
+      "description": "Messing around with heart health is no joke, and there are ways to help it. Research shows this to be the best supplement for heart disease.",
+      "url": "http://www.eatthis.com/best-supplement-for-heart-disease/",
+      "urlToImage": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/04/Cocoa-Supplement.jpg?quality=82&strip=all",
+      "publishedAt": "2022-04-19T16:13:57Z",
+      "content": "Heart disease is the leading cause of death for men and women in the United States, with about 659,000 people dying each year. Those who are at the highest risk of heart disease have underlying issue… [+2723 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Interesting Engineering"
+      },
+      "author": "Brad Bergan",
+      "title": "A new technique successfully fried up to 75 percent of tumors using ultrasound - Interesting Engineering",
+      "description": "A new technique uses ultrasound waves to mechanically eliminate up to 75 percent of cancer cells, freeing the immune system to fight off the rest, and more.",
+      "url": "https://interestingengineering.com/cancer-tumors-ultrasound-noninvasive",
+      "urlToImage": "https://inteng-storage.s3.amazonaws.com/img/iea/94w5avg4wo/sizes/cancer-tumors-ultrasound-noninvasive_md.jpg",
+      "publishedAt": "2022-04-19T12:47:00Z",
+      "content": "We just took a bite out of cancer.\r\nWith ultrasound waves.\r\nScientists from the University of Michigan used a new technique to whittle away at tumors inside rats — by employing noninvasive ultrasound… [+3151 chars]"
+    }
+  ]
+}

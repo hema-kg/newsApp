@@ -1,9 +1,162 @@
 .nav-wrapper {
-    overflow: hidden;
+    overflow: visible;
     align-items: center;
     padding-top: 2.5rem;
 }
 
+/* Ensure nav wrapper doesn't create a higher stacking context than the overlay */
+.nav-wrapper { z-index: 0; }
+
 .nav-label {
     font-weight: bold;
 }
+
+@media (max-width: 767.98px) {
+    .nav-wrapper {
+        padding-top: 1rem;
+    }
+    .form-select {
+        font-weight: 700;
+    }
+}
+
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.72);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 220ms ease-in-out;
+    z-index: 99999999;
+}
+.mobile-menu-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 84%;
+    max-width: 320px;
+    height: 100%;
+    background: linear-gradient(180deg, #071226 0%, #091827 100%);
+    padding: 1.25rem 1.5rem;
+    box-shadow: 6px 0 24px rgba(2,6,23,0.32);
+    transform: translateX(-105%);
+    transition: transform 300ms cubic-bezier(.2,.8,.2,1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow-y: auto;
+    z-index: 100000000;
+}
+.mobile-menu-header {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.menu-brand {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+.menu-brand .brand-dot {
+    color: #38bdf8;
+    margin-left: 4px;
+}
+.avatar img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.06);
+}
+.mobile-menu .nav-item-button {
+    color: rgba(255,255,255,0.94);
+    background: transparent;
+}
+.menu-icon svg { color: rgba(255,255,255,0.94); }
+.nav-item-button .menu-label { font-weight: 600; }
+.nav-item-button:hover { background: rgba(255,255,255,0.02); }
+
+/* Mobile sidebar scoped styles */
+.mobile-menu .menu-icon svg { color: rgba(255,255,255,0.85); transition: color 180ms ease; }
+.mobile-menu .nav-item-button { color: rgba(255,255,255,0.92); background: transparent; }
+.mobile-menu .nav-item-button:hover { background: rgba(255,255,255,0.03); }
+.mobile-menu .nav-item-button.active { background:  white; font-weight: 700; border-left: 4px solid #38bdf8; padding-left: 0.6rem; }
+.mobile-menu .nav-item-button.active .menu-icon svg { color: black !important; }
+.mobile-menu .nav-item-button.active .menu-label { color: black !important; }
+.mobile-menu.open {
+    transform: translateX(0);
+}
+.mobile-menu .close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+}
+
+.top-left {
+  position: fixed;
+  top: 7px;
+  left: -9px;
+}
+
+.nav-item-button {
+    display: block;
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    color: #1f2937;
+    background: transparent;
+    border: none;
+    text-align: left;
+    border-radius: 6px;
+}
+.nav-item-button:hover,
+.nav-item-button:focus {
+    background: rgba(0,0,0,0.04);
+    outline: none;
+}
+.nav-item-button.active {
+    background: linear-gradient(90deg, #e9f2ff, #ffffff);
+    font-weight: 700;
+}
+
+.hamburger { position: relative; width: 30px; height: 29px; display: inline-flex; align-items: center; justify-content: center; padding: 6px; color: white; background: black; /* border: 2px solid currentColor; */ }
+
+
+.hamburger .bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin: 3px 0;
+    transition: transform 220ms ease, opacity 220ms ease;
+}
+.hamburger.open .bar:nth-of-type(1) { transform: translateY(6px) rotate(45deg); }
+.hamburger.open .bar:nth-of-type(2) { opacity: 0; }
+.hamburger.open .bar:nth-of-type(3) { transform: translateY(-6px) rotate(-45deg); }
+
+.mobile-menu::-webkit-scrollbar { width: 8px; }
+.mobile-menu::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 8px; }
+
+@media (max-width: 767.98px) {
+    /* Push main content aside when menu is open to avoid overlap shown in screenshot */
+    body.menu-open .nav-wrapper .tab-content {
+           transform: none;              /* ✅ DO NOT MOVE CONTENT */
+        filter: blur(0.6px) brightness(0.95);
+        pointer-events: none;
+        z-index: 0 !important; /* force content under overlay/menu */
+    }
+
+    /* Ensure tab-content has a low stacking context by default */
+    .nav-wrapper .tab-content { position: relative; z-index: 1; }
+}
+
